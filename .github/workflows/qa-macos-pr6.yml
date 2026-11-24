@@ -1,4 +1,4 @@
-name: SwitchMTP PR 6 macOS build
+name: SwitchMTP PR 6 macOS Intel build
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ permissions:
 jobs:
 
   build:
-    runs-on: macos-latest
+    runs-on: macos-26-intel
     timeout-minutes: 45
 
     steps:
